@@ -12,15 +12,15 @@ let metaKey = false
 
 let controlsAreVisible = true;
 const toggleControlsVisible = () => {
-	const playerControlElements = document.querySelectorAll(".ytp-chrome-top, .ytp-gradient-top, .ytp-chrome-bottom, .ytp-gradient-bottom");
-    
+    const playerControlElements = document.querySelectorAll(".ytp-chrome-top, .ytp-gradient-top, .ytp-chrome-bottom, .ytp-gradient-bottom");
+
     if (hideByOpacity) {
         playerControlElements.forEach(elem => elem.style.opacity = controlsAreVisible ? 0 : "");
     } else {
         playerControlElements.forEach(elem => elem.style.display = controlsAreVisible ? "none" : "");
     }
 
-	controlsAreVisible = !controlsAreVisible;
+    controlsAreVisible = !controlsAreVisible;
 }
 
 document.addEventListener("keydown", function (event) {
