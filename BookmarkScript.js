@@ -1,0 +1,1 @@
+javascript:(function(){const playerControlElements = document.querySelectorAll(".ytp-chrome-top, .ytp-gradient-top, .ytp-chrome-bottom, .ytp-gradient-bottom");playerControlElements.forEach(elem => {elem.style.display = elem.style.display === "none" ? "" : "none";})})();
