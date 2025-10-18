@@ -1,10 +1,591 @@
-/* <-- uncoment styles by removing these --> */
+/*
+***
+* HIDE YOUTUBE INTERFACE by FlyingHairball
+***
+* you can use this css file to
+* customize your youtube experience
+* and restore the old look of youtube
+***
+* to activate a style delete the lines
+* above and below it entirely
+***
+*/
 
 
-/* completely and permanently hide youtube interface */
-/* .ytp-chrome-top, .ytp-gradient-top, .ytp-chrome-bottom, .ytp-gradient-bottom {
+/* ===================================================================================================================== */
+/* ================================= Completely and Permanently Hide Youtube Interface ================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-chrome-top, .ytp-gradient-top, .ytp-chrome-bottom, .ytp-gradient-bottom, .ytp-overlays-container, .ytp-fullscreen-grid-expand-button {
     display: none;
-} */
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+
+/* IMPORTANT: the Restore Old Youtube Style below is for the new youtube interface (2025~now) and may not work proberly with the old interface */
+/* ===================================================================================================================== */
+/* ============================================= Restore Old Youtube Style ============================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button,
+.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area,
+.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls,
+.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper {
+    background: none;
+}
+
+.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
+    width: calc(100% - 48px) !important;
+    height: 80px;
+    padding: 0px 24px;
+    left: 0 !important;
+    
+    background: rgba(0, 0, 0, 0.12);
+    box-shadow: black 0px 118px 100px 60px;
+}
+
+.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
+    bottom: 65px;
+}
+
+.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style {
+    top: calc(100% - 350px) !important;
+}
+
+.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
+    top: 15px;
+}
+
+.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
+    width: 56px;
+    height: 56px;
+    margin-top: 20px;
+}
+
+.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button svg {
+    padding: 10px;
+}
+
+.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions {
+    top: 15px;
+}
+
+.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
+.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText {
+    font-size: 16px;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================ Remove Progress Bar Scrubber =========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-scrubber-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================================ Remove Progress Bar ================================================ */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-progress-bar-container {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================================ Remove Play Button ================================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-play-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================================ Remove Previous Button ================================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-prev-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================================ Remove Next Button ================================================= */
+/* ===================================================================================================================== */
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-next-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =============================================== Remove Volume Button ================================================ */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-volume-area {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================ Remove Volume Adjust Panel ============================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-volume-panel {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================= Remove Video Time Display ============================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-time-display {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =============================================== Remove Chapter Button =============================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-chapter-container {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================== Remove Scroll for Details Button ========================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-fullscreen-grid-expand-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =============================================== Remove Autonav Toggle =============================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-autonav-toggle {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================== Remove Subtitles Button ============================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-subtitles-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =============================================== Remove Settings Button ============================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-settings-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================== Remove Picture in Picture Button ========================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-pip-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================================= Remove Size Button ================================================ */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-size-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================== Remove Play on TV Button ============================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-remote-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================== Remove Fullscreen Button ============================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-fullscreen-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================== Remove Fullscreen Title ============================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-fullscreen-metadata {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =========================================== Remove Fullscreen Paid Content ========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-paid-content-overlay {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================== Remove Fullscreen Search Button ========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-search-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================= Remove Fullscreen Copy Link Button ======================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-copylink-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =========================================== Remove Fullscreen Cards Button ========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-cards-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ======================================= Remove Fullscreen Cards Teaser Button ======================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-cards-teaser {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================= Remove Fullscreen Overflow Button ========================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-overflow-button {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ======================================== Remove Fullscreen Suggested Actions ======================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-suggested-action {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================== Remove Fullscreen Timely Actions ========================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-timely-actions-content {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================== Remove Fullscreen Quick Actions ========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-fullscreen-quick-actions {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =========================================== Remove Fullscreen Like Button =========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytLikeButtonViewModelHost {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ========================================== Remove Fullscreen Dislike Button ========================================= */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytDislikeButtonViewModelHost {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================== Remove Fullscreen Comments Button (Experimental) ================================= */
+/* ===================================================================================================================== */
+/*  this element is not properly labeled by youtube and the code below may not function if youtube eventually fixes it   */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytDislikeButtonViewModelHost + toggle-button-view-model {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ================================ Remove Fullscreen Chat Replay Button (Experimental) ================================ */
+/* ===================================================================================================================== */
+/*  this element is not properly labeled by youtube and the code below may not function if youtube eventually fixes it   */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytDislikeButtonViewModelHost + toggle-button-view-model + toggle-button-view-model {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =========================================== Remove Fullscreen Share Button ========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytSpecButtonViewModelHost {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* =============================================== Remove Seek Indicators ============================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-seek-overlay {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+/* ===================================================================================================================== */
+/* ============================================ Remove Play/Pause Indicators =========================================== */
+/* ===================================================================================================================== */
+
+
+/* (delete this entire line and the one below to activate this style)
+
+.ytp-bezel {
+    display: none !important;
+}
+
+*/ /* (delete this entire line and the one above to activate this style)  */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* IMPORTANT: styles below are for the old youtube interface (2015~2025) and may not work proberly on the new interface  */
+/* ===================================================================================================================== */
+/* ================================================= Old Youtube Styles ================================================ */
+/* ===================================================================================================================== */
 
 
 /* unintrusive dropshadow */
