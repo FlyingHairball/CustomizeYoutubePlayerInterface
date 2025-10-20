@@ -53,6 +53,7 @@
 }
 
 .ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
+    width: calc(100% - 48px) !important;
     bottom: 65px;
 }
 
