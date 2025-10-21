@@ -27,7 +27,7 @@
 
 
 
-/* IMPORTANT: the Restore Old Youtube Style below is for the new youtube interface (2025~now) and may not work properly with the old interface */
+/* IMPORTANT: the Restore Old Youtube Style below is for the new youtube interface (2025~now) and will not work if the old interface is detected */
 /* ===================================================================================================================== */
 /* ============================================= Restore Old Youtube Style ============================================= */
 /* ===================================================================================================================== */
@@ -35,14 +35,14 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button,
-.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area,
-.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls,
-.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper {
+.ytp_interface_2025 .ytp-button.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button,
+.ytp_interface_2025 .ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area,
+.ytp_interface_2025 .ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls,
+.ytp_interface_2025 .ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper {
     background: none;
 }
 
-.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
+.ytp_interface_2025 .ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
     width: calc(100% - 48px) !important;
     height: 80px;
     padding: 0px 24px;
@@ -52,38 +52,38 @@
     box-shadow: black 0px 118px 100px 60px;
 }
 
-.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
+.ytp_interface_2025 .ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
     width: calc(100% - 48px) !important;
     bottom: 65px;
 }
 
-.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style {
+.ytp_interface_2025 .ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style {
     top: calc(100% - 350px) !important;
 }
 
-.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
+.ytp_interface_2025 .ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
     top: 15px;
 }
 
-.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
+.ytp_interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
     width: 56px;
     height: 56px;
     margin-top: 20px;
 }
 
-.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button svg {
+.ytp_interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button svg {
     padding: 10px;
 }
 
-.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions {
+.ytp_interface_2025 .ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions {
     top: 15px;
 }
 
-.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
+.ytp_interface_2025 .ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
     background: rgba(0, 0, 0, 0.2);
 }
 
-.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
+.ytp_interface_2025 .ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
 .sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText {
     font-size: 16px;
 }
@@ -98,7 +98,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-scrubber-button {
+.ytp_interface_2025 .ytp-scrubber-button {
     display: none !important;
 }
 
@@ -112,7 +112,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-progress-bar-container {
+.ytp_interface_2025 .ytp-progress-bar-container {
     display: none !important;
 }
 
@@ -126,7 +126,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-play-button {
+.ytp_interface_2025 .ytp-play-button {
     display: none !important;
 }
 
@@ -140,7 +140,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-prev-button {
+.ytp_interface_2025 .ytp-prev-button {
     display: none !important;
 }
 
@@ -153,7 +153,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-next-button {
+.ytp_interface_2025 .ytp-next-button {
     display: none !important;
 }
 
@@ -167,7 +167,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-volume-area {
+.ytp_interface_2025 .ytp-volume-area {
     display: none !important;
 }
 
@@ -181,7 +181,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-volume-panel {
+.ytp_interface_2025 .ytp-volume-panel {
     display: none !important;
 }
 
@@ -195,7 +195,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-time-display {
+.ytp_interface_2025 .ytp-time-display {
     display: none !important;
 }
 
@@ -209,7 +209,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-chapter-container {
+.ytp_interface_2025 .ytp-chapter-container {
     display: none !important;
 }
 
@@ -223,7 +223,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-fullscreen-grid-expand-button {
+.ytp_interface_2025 .ytp-fullscreen-grid-expand-button {
     display: none !important;
 }
 
@@ -237,7 +237,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-autonav-toggle {
+.ytp_interface_2025 .ytp-autonav-toggle {
     display: none !important;
 }
 
@@ -251,7 +251,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-subtitles-button {
+.ytp_interface_2025 .ytp-subtitles-button {
     display: none !important;
 }
 
@@ -265,7 +265,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-settings-button {
+.ytp_interface_2025 .ytp-settings-button {
     display: none !important;
 }
 
@@ -279,7 +279,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-pip-button {
+.ytp_interface_2025 .ytp-pip-button {
     display: none !important;
 }
 
@@ -293,7 +293,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-size-button {
+.ytp_interface_2025 .ytp-size-button {
     display: none !important;
 }
 
@@ -307,7 +307,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-remote-button {
+.ytp_interface_2025 .ytp-remote-button {
     display: none !important;
 }
 
@@ -321,7 +321,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-fullscreen-button {
+.ytp_interface_2025 .ytp-fullscreen-button {
     display: none !important;
 }
 
@@ -335,7 +335,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-fullscreen-metadata {
+.ytp_interface_2025 .ytp-fullscreen-metadata {
     display: none !important;
 }
 
@@ -349,7 +349,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-paid-content-overlay {
+.ytp_interface_2025 .ytp-paid-content-overlay {
     display: none !important;
 }
 
@@ -363,7 +363,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-search-button {
+.ytp_interface_2025 .ytp-search-button {
     display: none !important;
 }
 
@@ -377,7 +377,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-copylink-button {
+.ytp_interface_2025 .ytp-copylink-button {
     display: none !important;
 }
 
@@ -391,7 +391,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-cards-button {
+.ytp_interface_2025 .ytp-cards-button {
     display: none !important;
 }
 
@@ -405,7 +405,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-cards-teaser {
+.ytp_interface_2025 .ytp-cards-teaser {
     display: none !important;
 }
 
@@ -419,7 +419,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-overflow-button {
+.ytp_interface_2025 .ytp-overflow-button {
     display: none !important;
 }
 
@@ -433,7 +433,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-suggested-action {
+.ytp_interface_2025 .ytp-suggested-action {
     display: none !important;
 }
 
@@ -447,7 +447,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-timely-actions-content {
+.ytp_interface_2025 .ytp-timely-actions-content {
     display: none !important;
 }
 
@@ -461,7 +461,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-fullscreen-quick-actions {
+.ytp_interface_2025 .ytp-fullscreen-quick-actions {
     display: none !important;
 }
 
@@ -475,7 +475,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytLikeButtonViewModelHost {
+.ytp_interface_2025 .ytLikeButtonViewModelHost {
     display: none !important;
 }
 
@@ -489,7 +489,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytDislikeButtonViewModelHost {
+.ytp_interface_2025 .ytDislikeButtonViewModelHost {
     display: none !important;
 }
 
@@ -504,7 +504,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytDislikeButtonViewModelHost + toggle-button-view-model {
+.ytp_interface_2025 .ytDislikeButtonViewModelHost + toggle-button-view-model {
     display: none !important;
 }
 
@@ -519,7 +519,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytDislikeButtonViewModelHost + toggle-button-view-model + toggle-button-view-model {
+.ytp_interface_2025 .ytDislikeButtonViewModelHost + toggle-button-view-model + toggle-button-view-model {
     display: none !important;
 }
 
@@ -533,7 +533,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytSpecButtonViewModelHost {
+.ytp_interface_2025 .ytSpecButtonViewModelHost {
     display: none !important;
 }
 
@@ -547,7 +547,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-seek-overlay {
+.ytp_interface_2025 .ytp-seek-overlay {
     display: none !important;
 }
 
@@ -561,7 +561,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp-bezel {
+.ytp_interface_2025 .ytp-bezel {
     display: none !important;
 }
 
@@ -583,14 +583,14 @@
 
 
 
-/* IMPORTANT: styles below are for the old youtube interface (2015~2025) and may not work proberly on the new interface  */
+/* IMPORTANT: styles below are for the old youtube interface (2015~2025) and will not work if the new interface is detected  */
 /* ===================================================================================================================== */
 /* ================================================= Old Youtube Styles ================================================ */
 /* ===================================================================================================================== */
 
 
 /* unintrusive dropshadow */
-/* .ytp-gradient-bottom.ytp-gradient-bottom.ytp-gradient-bottom {
+/* .ytp_interface_2015 .ytp-gradient-bottom.ytp-gradient-bottom.ytp-gradient-bottom {
     height: 50px !important;
 	padding-top: 0px;
 	opacity: 0.3;
@@ -599,115 +599,115 @@
 
 
 /* remove scrubber button */
-/* .ytp-scrubber-button {
+/* .ytp_interface_2015 .ytp-scrubber-button {
     display: none !important;
 } */
 
 
 /* remove miniplayer button */
-/* .ytp-miniplayer-button {
+/* .ytp_interface_2015 .ytp-miniplayer-button {
     display: none !important;
 } */
 
 
 /* remove bottom dropshadow */
-/* .ytp-gradient-bottom {
+/* .ytp_interface_2015 .ytp-gradient-bottom {
     display: none !important;
 } */
 
 
 /* remove progress bar */
-/* .ytp-progress-bar-container {
+/* .ytp_interface_2015 .ytp-progress-bar-container {
     display: none !important;
 } */
 
 
 /* remove previous button */
-/* .ytp-prev-button {
+/* .ytp_interface_2015 .ytp-prev-button {
     display: none !important;
 } */
 
 
 /* remove play button */
-/* .ytp-play-button {
+/* .ytp_interface_2015 .ytp-play-button {
     display: none !important;
 } */
 
 
 /* remove next button */
-/* .ytp-next-button {
+/* .ytp_interface_2015 .ytp-next-button {
     display: none !important;
 } */
 
 
 /* remove volume button */
-/* .ytp-volume-area {
+/* .ytp_interface_2015 .ytp-volume-area {
     display: none !important;
 } */
 
 
 /* remove volume adjust panel */
-/* .ytp-volume-panel {
+/* .ytp_interface_2015 .ytp-volume-panel {
     display: none !important;
 } */
 
 
 /* remove video time display */
-/* .ytp-time-display {
+/* .ytp_interface_2015 .ytp-time-display {
     display: none !important;
 } */
 
 
 /* remove chapter button */
-/* .ytp-chapter-container {
+/* .ytp_interface_2015 .ytp-chapter-container {
     display: none !important;
 } */
 
 
 /* remove scroll for details button */
-/* .ytp-fullerscreen-edu-button {
+/* .ytp_interface_2015 .ytp-fullerscreen-edu-button {
     display: none !important;
 } */
 
 
 /* remove autonav toggle */
-/* .ytp-autonav-toggle {
+/* .ytp_interface_2015 .ytp-autonav-toggle {
     display: none !important;
 } */
 
 
 /* remove subtitles button */
-/* .ytp-subtitles-button {
+/* .ytp_interface_2015 .ytp-subtitles-button {
     display: none !important;
 } */
 
 
 /* remove settings button */
-/* .ytp-settings-button {
+/* .ytp_interface_2015 .ytp-settings-button {
     display: none !important;
 } */
 
 
 /* remove picture in picture button */
-/* .ytp-pip-button {
+/* .ytp_interface_2015 .ytp-pip-button {
     display: none !important;
 } */
 
 
 /* remove size button */
-/* .ytp-size-button {
+/* .ytp_interface_2015 .ytp-size-button {
     display: none !important;
 } */
 
 
 /* remove play on tv button */
-/* .ytp-remote-button {
+/* .ytp_interface_2015 .ytp-remote-button {
     display: none !important;
 } */
 
 
 /* remove fullscreen button */
-/* .ytp-fullscreen-button {
+/* .ytp_interface_2015 .ytp-fullscreen-button {
     display: none !important;
 } */
 
@@ -718,54 +718,54 @@
 /* fullscreen topbar setting */
 
 /* remove top dropshadow */
-/* .ytp-gradient-top {
+/* .ytp_interface_2015 .ytp-gradient-top {
     display: none !important;
 } */
 
 
 /* remove title */
-/* .ytp-title {
+/* .ytp_interface_2015 .ytp-title {
     display: none !important;
 } */
 
 
 /* remove search button */
-/* .ytp-search-button {
+/* .ytp_interface_2015 .ytp-search-button {
     display: none !important;
 } */
 
 
 /* remove watch later button */
-/* .ytp-watch-later-button {
+/* .ytp_interface_2015 .ytp-watch-later-button {
     display: none !important;
 } */
 
 
 /* remove share button */
-/* .ytp-share-button {
+/* .ytp_interface_2015 .ytp-share-button {
     display: none !important;
 } */
 
 
 /* remove copy link button */
-/* .ytp-copylink-button {
+/* .ytp_interface_2015 .ytp-copylink-button {
     display: none !important;
 } */
 
 
 /* remove cards button */
-/* .ytp-cards-button {
+/* .ytp_interface_2015 .ytp-cards-button {
     display: none !important;
 } */
 
 
 /* remove cards teaser */
-/* .ytp-cards-teaser {
+/* .ytp_interface_2015 .ytp-cards-teaser {
     display: none !important;
 } */
 
 
 /* remove overflow button */
-/* .ytp-overflow-button {
+/* .ytp_interface_2015 .ytp-overflow-button {
     display: none !important;
 } */

@@ -38,3 +38,10 @@ document.addEventListener("keydown", function (event) {
 if (startHidden) {
     toggleControlsVisible();
 }
+
+// detect interface version
+if (document.getElementsByClassName("ytp-overlays-container").length) {
+    document.body.classList.add("ytp_interface_2025");
+} else {
+    document.body.classList.add("ytp_interface_2015");
+}
