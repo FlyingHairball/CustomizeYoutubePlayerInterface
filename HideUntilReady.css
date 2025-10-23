@@ -1,0 +1,8 @@
+body:not(.hypi-ready) .ytp-chrome-top,
+body:not(.hypi-ready) .ytp-gradient-top,
+body:not(.hypi-ready) .ytp-chrome-bottom,
+body:not(.hypi-ready) .ytp-gradient-bottom,
+body:not(.hypi-ready) .ytp-overlays-container,
+body:not(.hypi-ready) .ytp-fullscreen-grid-expand-button {
+    display: none;
+}

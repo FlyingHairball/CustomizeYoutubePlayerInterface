@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="Popup.css" />
+    </head>
+    <body id="hypi-popup">
+        <h1 class="hypi-main-header">Hide Youtube Interface</h2>
+        <div class="hypi-tabs">
+            <button class="hypi-tab hypi-active" data-tab="hypi-general">General</button>
+            <button class="hypi-tab" data-tab="hypi-advanced">Advanced</button>
+        </div>
+        
+        <div class="hypi-tab-content hypi-active" id="hypi-general">
+
+            <div class="hypi-container">
+                <p for="hypi-custom-shortcut">Custom Shortcut:</p>
+                <input type="text" id="hypi-custom-shortcut" class="hypi-input" placeholder="Default: p" value="p" />
+            </div>
+
+            <h2>Shortcut Modifiers:</h2>
+            
+            <div class="hypi-container">
+                <p>Ctrl</p>
+                <label class="hypi-switch" for="hypi-ctrlKey">
+                    <input type="checkbox" id="hypi-ctrlKey" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Shift</p>
+                <label class="hypi-switch" for="hypi-shiftKey">
+                    <input type="checkbox" id="hypi-shiftKey" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Alt</p>
+                <label class="hypi-switch" for="hypi-altKey">
+                    <input type="checkbox" id="hypi-altKey" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Meta</p>
+                <label class="hypi-switch" for="hypi-metaKey">
+                    <input type="checkbox" id="hypi-metaKey" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+
+            <h2>Behaviour:</h2>
+
+            <div class="hypi-container">
+                <p>Start Hidden</p>
+                <label class="hypi-switch" for="hypi-start-hidden">
+                    <input type="checkbox" id="hypi-start-hidden" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <div class="hypi-tooltip-container">
+                    <div class="hypi-tooltip">Hide By Opacity <span class="hypi-tooltip-mark">(?)</span>
+                        <span class="hypi-tooltiptext">you can still interact with the interface by mousing over it</span>
+                    </div>
+                </div>
+                <label class="hypi-switch" for="hypi-hide-by-opacity">
+                    <input type="checkbox" id="hypi-hide-by-opacity" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+        </div>
+
+        <div class="hypi-tab-content" id="hypi-advanced">
+
+            
+            <div class="hypi-container">
+                <p>Enable Styles</p>
+                <label class="hypi-switch" for="hypi-enable-styles">
+                    <input type="checkbox" id="hypi-enable-styles" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+
+            <h2>2025 Styles:</h2>
+
+            <div class="hypi-container">
+                <div class="hypi-tooltip-container">
+                    <div class="hypi-tooltip">Custom UI (2025) <span class="hypi-tooltip-mark">(?)</span>
+                        <span class="hypi-tooltiptext">will style the new interface so it resembles the old yt interface</span>
+                    </div>
+                </div>
+                <label class="hypi-switch" for="hypi-custom-ui-2025">
+                    <input type="checkbox" disabled id="hypi-custom-ui-2025" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Quick Actions</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-fullscreen-quick-actions">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-fullscreen-quick-actions" class="hypi-input" data-hide-target-element=".ytp-fullscreen-quick-actions" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Scrubber Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-scrubber-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-scrubber-button" class="hypi-input" data-hide-target-element=".ytp-scrubber-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Progress Bar</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-progress-bar-container">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-progress-bar-container" class="hypi-input" data-hide-target-element=".ytp-progress-bar-container" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Play Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-play-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-play-button" class="hypi-input" data-hide-target-element=".ytp-play-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Previous Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-prev-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-prev-button" class="hypi-input" data-hide-target-element=".ytp-prev-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Next Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-next-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-next-button" class="hypi-input" data-hide-target-element=".ytp-next-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Volume Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-volume-area">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-volume-area" class="hypi-input" data-hide-target-element=".ytp-volume-area" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Volume Adjust Panel</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-volume-panel">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-volume-panel" class="hypi-input" data-hide-target-element=".ytp-volume-panel" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Video Time Display</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-time-display">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-time-display" class="hypi-input" data-hide-target-element=".ytp-time-display" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Chapter Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-chapter-container">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-chapter-container" class="hypi-input" data-hide-target-element=".ytp-chapter-container" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Scroll for Details Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-fullscreen-grid-expand-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-fullscreen-grid-expand-button" class="hypi-input" data-hide-target-element=".ytp-fullscreen-grid-expand-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Autoplay Toggle</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-autonav-toggle">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-autonav-toggle" class="hypi-input" data-hide-target-element=".ytp-autonav-toggle" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Subtitles Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-subtitles-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-subtitles-button" class="hypi-input" data-hide-target-element=".ytp-subtitles-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Settings Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-settings-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-settings-button" class="hypi-input" data-hide-target-element=".ytp-settings-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Picture in Picture Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-pip-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-pip-button" class="hypi-input" data-hide-target-element=".ytp-pip-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Size Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-size-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-size-button" class="hypi-input" data-hide-target-element=".ytp-size-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Play on TV Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-remote-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-remote-button" class="hypi-input" data-hide-target-element=".ytp-remote-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-fullscreen-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-fullscreen-button" class="hypi-input" data-hide-target-element=".ytp-fullscreen-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Title</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-fullscreen-metadata">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-fullscreen-metadata" class="hypi-input" data-hide-target-element=".ytp-fullscreen-metadata" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Paid Content</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-paid-content-overlay">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-paid-content-overlay" class="hypi-input" data-hide-target-element=".ytp-paid-content-overlay" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Search Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-search-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-search-button" class="hypi-input" data-hide-target-element=".ytp-search-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Copy Link Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-copylink-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-copylink-button" class="hypi-input" data-hide-target-element=".ytp-copylink-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Cards Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-cards-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-cards-button" class="hypi-input" data-hide-target-element=".ytp-cards-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Cards Teaser</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-cards-teaser">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-cards-teaser" class="hypi-input" data-hide-target-element=".ytp-cards-teaser" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Overflow Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-overflow-button">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-overflow-button" class="hypi-input" data-hide-target-element=".ytp-overflow-button" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Suggested Actions</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-suggested-action">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-suggested-action" class="hypi-input" data-hide-target-element=".ytp-suggested-action" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Timely Actions</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-timely-actions-content">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-timely-actions-content" class="hypi-input" data-hide-target-element=".ytp-timely-actions-content" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Like Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytLikeButtonViewModelHost">
+                    <input type="checkbox" disabled id="hypi-hide-ytLikeButtonViewModelHost" class="hypi-input" data-hide-target-element=".ytLikeButtonViewModelHost" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Dislike Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytDislikeButtonViewModelHost">
+                    <input type="checkbox" disabled id="hypi-hide-ytDislikeButtonViewModelHost" class="hypi-input" data-hide-target-element=".ytDislikeButtonViewModelHost" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+
+            <div class="hypi-container">
+                <p>Hide Fullscreen Comments Button (Experimental)</p>
+                <label class="hypi-switch" for="hypi-fullscreen-comments-button">
+                    <input type="checkbox" disabled id="hypi-fullscreen-comments-button" class="hypi-input" data-hide-target-element=".ytDislikeButtonViewModelHost + toggle-button-view-model" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Chat Replay Button (Experimental)</p>
+                <label class="hypi-switch" for="hypi-fullscreen-chat-replay-button">
+                    <input type="checkbox" disabled id="hypi-fullscreen-chat-replay-button" class="hypi-input" data-hide-target-element=".ytDislikeButtonViewModelHost + toggle-button-view-model + toggle-button-view-model" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Fullscreen Share Button</p>
+                <label class="hypi-switch" for="hypi-hide-ytSpecButtonViewModelHost">
+                    <input type="checkbox" disabled id="hypi-hide-ytSpecButtonViewModelHost" class="hypi-input" data-hide-target-element=".ytSpecButtonViewModelHost" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Seek Indicators</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-seek-overlay">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-seek-overlay" class="hypi-input" data-hide-target-element=".ytp-seek-overlay" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            
+            <div class="hypi-container">
+                <p>Hide Play/Pause Indicators</p>
+                <label class="hypi-switch" for="hypi-hide-ytp-bezel">
+                    <input type="checkbox" disabled id="hypi-hide-ytp-bezel" class="hypi-input" data-hide-target-element=".ytp-bezel" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+
+            <h2>2015 Styles:</h2>
+
+            <div class="hypi-container">
+                <div class="hypi-tooltip-container">
+                    <div class="hypi-tooltip">Unintrusive Dropshadow <span class="hypi-tooltip-mark">(?)</span>
+                        <span class="hypi-tooltiptext">will make the bottom dropshadow smaller so it doesn't cover half the screen on the old yt interface (2015-2025)</span>
+                    </div>
+                </div>
+                <label class="hypi-switch" for="hypi-unintrusive-dropshadow">
+                    <input type="checkbox" disabled id="hypi-unintrusive-dropshadow" class="hypi-input" />
+                    <div class="hypi-slider hypi-round"></div>
+                </label>
+            </div>
+            <div>todo: add style settings</div>
+        </div>
+
+        <script src="Popup.js"></script>
+    </body>
+</html>

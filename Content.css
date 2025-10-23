@@ -1,0 +1,113 @@
+/* styles for automatic settings (changes here will effect the automatic program behaviour) */
+
+/* general hide style */
+.hypi-hidden.hypi-hidden.hypi-hidden {
+    display: none !important;
+}
+
+
+/* Custom Ui 2025 */
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-button.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button,
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area,
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls,
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper {
+    background: none;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
+    bottom: 0;
+    height: 70px;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow {
+    position: absolute;
+    width: 110%;
+    height: 80px;
+    left: -5%;
+    bottom: 0;
+
+    box-shadow: black 0px 36px 65px;
+    background: rgba(0, 0, 0, 0.13);
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
+    position: relative;
+    top: -5px;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls {
+    height: 56px;
+    align-items: center;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls {
+    align-items: center;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls > .ytp-button,
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls > span,
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls {
+    margin: 0;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-time-display.ytp-time-display.ytp-time-display.ytp-time-display.ytp-time-display.ytp-time-display {
+    display: flex;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container {
+    display: flex;
+    padding: 0;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.sponsorblock-chapter-visible {
+    display: flex !important;
+    padding: 0;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style {
+    /* top: calc(100% - 355px) !important; */
+    top: auto !important;
+    bottom: 160px;
+}
+
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
+    position: relative;
+    top: -22px;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
+    width: 56px;
+    height: 56px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button svg {
+    padding: 10px;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions {
+    top: 15px;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
+    background: rgba(0, 0, 0, 0.2);
+    box-shadow: black 0px 0px 36px -11px;
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
+.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText {
+    font-size: 16px;
+}
+
+
+/* Unintrusive Dropshadow 2015 */
+.hypi-enable-styles.hypi-unintrusive-dropshadow.hypi-interface_2015 .ytp-gradient-bottom.ytp-gradient-bottom.ytp-gradient-bottom {
+    height: 50px !important;
+	padding-top: 0px;
+	opacity: 0.3;
+	box-shadow: black 0px 11px 50px;
+}

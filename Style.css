@@ -9,6 +9,13 @@
 * to activate a style delete the lines
 * above and below it entirely
 ***
+* WARNING: styles here are PERMANENT!
+* and you will not be able to turn them off
+* in the settings menu
+*
+* if you want to edit dynamic settings styles
+* then go to Content.css
+***
 */
 
 
@@ -35,55 +42,96 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-button.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button,
-.ytp_interface_2025 .ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area,
-.ytp_interface_2025 .ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls,
-.ytp_interface_2025 .ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper {
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-button.ytp-button.ytp-button.ytp-button.ytp-button.ytp-button,
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area.ytp-volume-area,
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls,
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper.ytp-time-wrapper {
     background: none;
 }
 
-.ytp_interface_2025 .ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
-    width: calc(100% - 48px) !important;
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
+    bottom: 0;
+    height: 70px;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow {
+    position: absolute;
+    width: 110%;
     height: 80px;
-    padding: 0px 24px;
-    left: 0 !important;
-    
-    background: rgba(0, 0, 0, 0.12);
-    box-shadow: black 0px 118px 100px 60px;
+    left: -5%;
+    bottom: 0;
+
+    box-shadow: black 0px 36px 65px;
+    background: rgba(0, 0, 0, 0.13);
 }
 
-.ytp_interface_2025 .ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
-    width: calc(100% - 48px) !important;
-    bottom: 65px;
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
+    position: relative;
+    top: -5px;
 }
 
-.ytp_interface_2025 .ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style {
-    top: calc(100% - 350px) !important;
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls.ytp-chrome-controls {
+    height: 56px;
+    align-items: center;
 }
 
-.ytp_interface_2025 .ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
-    top: 15px;
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls {
+    align-items: center;
 }
 
-.ytp_interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls > .ytp-button,
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls.ytp-left-controls > span,
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls.ytp-right-controls {
+    margin: 0;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-time-display.ytp-time-display.ytp-time-display.ytp-time-display.ytp-time-display.ytp-time-display {
+    display: flex;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container {
+    display: flex;
+    padding: 0;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.ytp-chapter-container.sponsorblock-chapter-visible {
+    display: flex !important;
+    padding: 0;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style.ytp-tooltip-progress-bar-style {
+    top: auto !important;
+    bottom: 160px;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
+    position: relative;
+    top: -22px;
+}
+
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
     width: 56px;
     height: 56px;
-    margin-top: 20px;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.ytp_interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button svg {
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button svg {
     padding: 10px;
 }
 
-.ytp_interface_2025 .ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions {
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions.ytp-fullscreen-quick-actions {
     top: 15px;
 }
 
-.ytp_interface_2025 .ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
     background: rgba(0, 0, 0, 0.2);
+    box-shadow: black 0px 0px 36px -11px;
 }
 
-.ytp_interface_2025 .ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
+.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
 .sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText.sponsorChapterText {
     font-size: 16px;
 }
@@ -98,7 +146,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-scrubber-button {
+.hypi-interface_2025 .ytp-scrubber-button {
     display: none !important;
 }
 
@@ -112,7 +160,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-progress-bar-container {
+.hypi-interface_2025 .ytp-progress-bar-container {
     display: none !important;
 }
 
@@ -126,7 +174,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-play-button {
+.hypi-interface_2025 .ytp-play-button {
     display: none !important;
 }
 
@@ -140,7 +188,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-prev-button {
+.hypi-interface_2025 .ytp-prev-button {
     display: none !important;
 }
 
@@ -153,7 +201,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-next-button {
+.hypi-interface_2025 .ytp-next-button {
     display: none !important;
 }
 
@@ -167,7 +215,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-volume-area {
+.hypi-interface_2025 .ytp-volume-area {
     display: none !important;
 }
 
@@ -181,7 +229,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-volume-panel {
+.hypi-interface_2025 .ytp-volume-panel {
     display: none !important;
 }
 
@@ -195,7 +243,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-time-display {
+.hypi-interface_2025 .ytp-time-display {
     display: none !important;
 }
 
@@ -209,7 +257,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-chapter-container {
+.hypi-interface_2025 .ytp-chapter-container {
     display: none !important;
 }
 
@@ -223,7 +271,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-fullscreen-grid-expand-button {
+.hypi-interface_2025 .ytp-fullscreen-grid-expand-button {
     display: none !important;
 }
 
@@ -231,13 +279,13 @@
 
 
 /* ===================================================================================================================== */
-/* =============================================== Remove Autonav Toggle =============================================== */
+/* =============================================== Remove Autoplay Toggle ============================================== */
 /* ===================================================================================================================== */
 
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-autonav-toggle {
+.hypi-interface_2025 .ytp-autonav-toggle {
     display: none !important;
 }
 
@@ -251,7 +299,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-subtitles-button {
+.hypi-interface_2025 .ytp-subtitles-button {
     display: none !important;
 }
 
@@ -265,7 +313,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-settings-button {
+.hypi-interface_2025 .ytp-settings-button {
     display: none !important;
 }
 
@@ -279,7 +327,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-pip-button {
+.hypi-interface_2025 .ytp-pip-button {
     display: none !important;
 }
 
@@ -293,7 +341,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-size-button {
+.hypi-interface_2025 .ytp-size-button {
     display: none !important;
 }
 
@@ -307,7 +355,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-remote-button {
+.hypi-interface_2025 .ytp-remote-button {
     display: none !important;
 }
 
@@ -321,7 +369,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-fullscreen-button {
+.hypi-interface_2025 .ytp-fullscreen-button {
     display: none !important;
 }
 
@@ -335,7 +383,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-fullscreen-metadata {
+.hypi-interface_2025 .ytp-fullscreen-metadata {
     display: none !important;
 }
 
@@ -349,7 +397,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-paid-content-overlay {
+.hypi-interface_2025 .ytp-paid-content-overlay {
     display: none !important;
 }
 
@@ -363,7 +411,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-search-button {
+.hypi-interface_2025 .ytp-search-button {
     display: none !important;
 }
 
@@ -377,7 +425,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-copylink-button {
+.hypi-interface_2025 .ytp-copylink-button {
     display: none !important;
 }
 
@@ -391,7 +439,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-cards-button {
+.hypi-interface_2025 .ytp-cards-button {
     display: none !important;
 }
 
@@ -399,13 +447,13 @@
 
 
 /* ===================================================================================================================== */
-/* ======================================= Remove Fullscreen Cards Teaser Button ======================================= */
+/* =========================================== Remove Fullscreen Cards Teaser ========================================== */
 /* ===================================================================================================================== */
 
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-cards-teaser {
+.hypi-interface_2025 .ytp-cards-teaser {
     display: none !important;
 }
 
@@ -419,7 +467,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-overflow-button {
+.hypi-interface_2025 .ytp-overflow-button {
     display: none !important;
 }
 
@@ -433,7 +481,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-suggested-action {
+.hypi-interface_2025 .ytp-suggested-action {
     display: none !important;
 }
 
@@ -447,7 +495,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-timely-actions-content {
+.hypi-interface_2025 .ytp-timely-actions-content {
     display: none !important;
 }
 
@@ -461,7 +509,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-fullscreen-quick-actions {
+.hypi-interface_2025 .ytp-fullscreen-quick-actions {
     display: none !important;
 }
 
@@ -475,7 +523,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytLikeButtonViewModelHost {
+.hypi-interface_2025 .ytLikeButtonViewModelHost {
     display: none !important;
 }
 
@@ -489,7 +537,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytDislikeButtonViewModelHost {
+.hypi-interface_2025 .ytDislikeButtonViewModelHost {
     display: none !important;
 }
 
@@ -504,7 +552,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytDislikeButtonViewModelHost + toggle-button-view-model {
+.hypi-interface_2025 .ytDislikeButtonViewModelHost + toggle-button-view-model {
     display: none !important;
 }
 
@@ -519,7 +567,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytDislikeButtonViewModelHost + toggle-button-view-model + toggle-button-view-model {
+.hypi-interface_2025 .ytDislikeButtonViewModelHost + toggle-button-view-model + toggle-button-view-model {
     display: none !important;
 }
 
@@ -533,7 +581,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytSpecButtonViewModelHost {
+.hypi-interface_2025 .ytSpecButtonViewModelHost {
     display: none !important;
 }
 
@@ -547,7 +595,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-seek-overlay {
+.hypi-interface_2025 .ytp-seek-overlay {
     display: none !important;
 }
 
@@ -561,7 +609,7 @@
 
 /* (delete this entire line and the one below to activate this style)
 
-.ytp_interface_2025 .ytp-bezel {
+.hypi-interface_2025 .ytp-bezel {
     display: none !important;
 }
 
@@ -590,7 +638,7 @@
 
 
 /* unintrusive dropshadow */
-/* .ytp_interface_2015 .ytp-gradient-bottom.ytp-gradient-bottom.ytp-gradient-bottom {
+/* .hypi-interface_2015.hypi-interface_2015.hypi-interface_2015 .ytp-gradient-bottom.ytp-gradient-bottom.ytp-gradient-bottom {
     height: 50px !important;
 	padding-top: 0px;
 	opacity: 0.3;
@@ -599,115 +647,115 @@
 
 
 /* remove scrubber button */
-/* .ytp_interface_2015 .ytp-scrubber-button {
+/* .hypi-interface_2015 .ytp-scrubber-button {
     display: none !important;
 } */
 
 
 /* remove miniplayer button */
-/* .ytp_interface_2015 .ytp-miniplayer-button {
+/* .hypi-interface_2015 .ytp-miniplayer-button {
     display: none !important;
 } */
 
 
 /* remove bottom dropshadow */
-/* .ytp_interface_2015 .ytp-gradient-bottom {
+/* .hypi-interface_2015 .ytp-gradient-bottom {
     display: none !important;
 } */
 
 
 /* remove progress bar */
-/* .ytp_interface_2015 .ytp-progress-bar-container {
+/* .hypi-interface_2015 .ytp-progress-bar-container {
     display: none !important;
 } */
 
 
 /* remove previous button */
-/* .ytp_interface_2015 .ytp-prev-button {
+/* .hypi-interface_2015 .ytp-prev-button {
     display: none !important;
 } */
 
 
 /* remove play button */
-/* .ytp_interface_2015 .ytp-play-button {
+/* .hypi-interface_2015 .ytp-play-button {
     display: none !important;
 } */
 
 
 /* remove next button */
-/* .ytp_interface_2015 .ytp-next-button {
+/* .hypi-interface_2015 .ytp-next-button {
     display: none !important;
 } */
 
 
 /* remove volume button */
-/* .ytp_interface_2015 .ytp-volume-area {
+/* .hypi-interface_2015 .ytp-volume-area {
     display: none !important;
 } */
 
 
 /* remove volume adjust panel */
-/* .ytp_interface_2015 .ytp-volume-panel {
+/* .hypi-interface_2015 .ytp-volume-panel {
     display: none !important;
 } */
 
 
 /* remove video time display */
-/* .ytp_interface_2015 .ytp-time-display {
+/* .hypi-interface_2015 .ytp-time-display {
     display: none !important;
 } */
 
 
 /* remove chapter button */
-/* .ytp_interface_2015 .ytp-chapter-container {
+/* .hypi-interface_2015 .ytp-chapter-container {
     display: none !important;
 } */
 
 
 /* remove scroll for details button */
-/* .ytp_interface_2015 .ytp-fullerscreen-edu-button {
+/* .hypi-interface_2015 .ytp-fullerscreen-edu-button {
     display: none !important;
 } */
 
 
 /* remove autonav toggle */
-/* .ytp_interface_2015 .ytp-autonav-toggle {
+/* .hypi-interface_2015 .ytp-autonav-toggle {
     display: none !important;
 } */
 
 
 /* remove subtitles button */
-/* .ytp_interface_2015 .ytp-subtitles-button {
+/* .hypi-interface_2015 .ytp-subtitles-button {
     display: none !important;
 } */
 
 
 /* remove settings button */
-/* .ytp_interface_2015 .ytp-settings-button {
+/* .hypi-interface_2015 .ytp-settings-button {
     display: none !important;
 } */
 
 
 /* remove picture in picture button */
-/* .ytp_interface_2015 .ytp-pip-button {
+/* .hypi-interface_2015 .ytp-pip-button {
     display: none !important;
 } */
 
 
 /* remove size button */
-/* .ytp_interface_2015 .ytp-size-button {
+/* .hypi-interface_2015 .ytp-size-button {
     display: none !important;
 } */
 
 
 /* remove play on tv button */
-/* .ytp_interface_2015 .ytp-remote-button {
+/* .hypi-interface_2015 .ytp-remote-button {
     display: none !important;
 } */
 
 
 /* remove fullscreen button */
-/* .ytp_interface_2015 .ytp-fullscreen-button {
+/* .hypi-interface_2015 .ytp-fullscreen-button {
     display: none !important;
 } */
 
@@ -718,54 +766,54 @@
 /* fullscreen topbar setting */
 
 /* remove top dropshadow */
-/* .ytp_interface_2015 .ytp-gradient-top {
+/* .hypi-interface_2015 .ytp-gradient-top {
     display: none !important;
 } */
 
 
 /* remove title */
-/* .ytp_interface_2015 .ytp-title {
+/* .hypi-interface_2015 .ytp-title {
     display: none !important;
 } */
 
 
 /* remove search button */
-/* .ytp_interface_2015 .ytp-search-button {
+/* .hypi-interface_2015 .ytp-search-button {
     display: none !important;
 } */
 
 
 /* remove watch later button */
-/* .ytp_interface_2015 .ytp-watch-later-button {
+/* .hypi-interface_2015 .ytp-watch-later-button {
     display: none !important;
 } */
 
 
 /* remove share button */
-/* .ytp_interface_2015 .ytp-share-button {
+/* .hypi-interface_2015 .ytp-share-button {
     display: none !important;
 } */
 
 
 /* remove copy link button */
-/* .ytp_interface_2015 .ytp-copylink-button {
+/* .hypi-interface_2015 .ytp-copylink-button {
     display: none !important;
 } */
 
 
 /* remove cards button */
-/* .ytp_interface_2015 .ytp-cards-button {
+/* .hypi-interface_2015 .ytp-cards-button {
     display: none !important;
 } */
 
 
 /* remove cards teaser */
-/* .ytp_interface_2015 .ytp-cards-teaser {
+/* .hypi-interface_2015 .ytp-cards-teaser {
     display: none !important;
 } */
 
 
 /* remove overflow button */
-/* .ytp_interface_2015 .ytp-overflow-button {
+/* .hypi-interface_2015 .ytp-overflow-button {
     display: none !important;
 } */
