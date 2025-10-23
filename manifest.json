@@ -10,11 +10,23 @@
     "*://*.youtube.com/*"
   ],
   "permissions": ["scripting", "tabs", "storage"],
+  "icons": {
+    "128": "icons/icon128.png"
+  },
   "content_scripts": [
     {
       "matches": ["https://www.youtube.com/*"],
       "js": ["Content.js"],
       "css": ["HideUntilReady.css", "Content.css", "Style.css"]
     }
-  ]
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "hide-youtube-player-interfave@flyinghairball",
+      "strict_min_version": "115.0",
+      "data_collection_permissions": {
+        "required": ["none"]
+      }
+    }
+  }
 }
