@@ -56,14 +56,16 @@ document.querySelectorAll(".hypi-input").forEach(input => {
 	})
 });
 
-async function updateAllTabs() {
-	const tabs = await chrome.tabs.query({ url: "*://*.youtube.com/*" });
-
-	for (const tab of tabs) {
-		if (!tab.active && (tab.discarded || tab.status !== "complete")) continue;
-		
-		chrome.tabs.sendMessage(tab.id, { data: await chrome.storage.local.get(null) });
-	}
+function updateAllTabs() {
+	chrome.storage.local.get(null, function(data) {
+		chrome.tabs.query({ url: "*://*.youtube.com/*" }, function(tabs) {
+			if (!tabs || tabs.length === 0) return;
+			for (const tab of tabs) {
+				if (!tab.active && (tab.discarded || tab.status !== "complete")) continue;
+				chrome.tabs.sendMessage(tab.id, { data });
+			}
+		});
+	})
 }
 
 var tabs = document.querySelectorAll('.hypi-tab')

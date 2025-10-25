@@ -1,18 +1,16 @@
 {
-  "manifest_version": 3,
+  "manifest_version": 2,
   "name": "HideYotubePlayerInterface",
   "version": "2.0.0",
-  "action": {
+  "browser_action": {
     "default_popup": "Popup/Popup.html",
     "default_title": "Hide YouTube Player Interface"
   },
-  "host_permissions": [
-    "*://*.youtube.com/*"
-  ],
   "background": {
-    "service_worker": "Background.js"
+    "scripts": ["Background.js"],
+    "persistent": true
   },
-  "permissions": ["tabs", "storage"],
+  "permissions": ["tabs", "storage", "*://*.youtube.com/*"],
   "icons": {
     "128": "icons/icon128.png"
   },
