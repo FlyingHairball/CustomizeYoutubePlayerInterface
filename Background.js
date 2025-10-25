@@ -1,9 +1,8 @@
 chrome.runtime.onMessage.addListener((msg, _sender, sendResponse) => {
     if (msg.type === "getData") {
-        (async () => {
-            const data = await chrome.storage.local.get(null);
+        chrome.storage.local.get(null, (data) => {
             sendResponse({ data });
-        })();
+        });
         return true;
     }
 });
