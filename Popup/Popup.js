@@ -20,7 +20,7 @@ chrome.storage.local.get(null, (data) => {
 });
 
 const setStylesEnabled = (isEnabled = false) => {
-	document.querySelectorAll("#hypi-advanced input:not(#hypi-enable-styles)").forEach(elem => elem.disabled = !isEnabled);
+	document.querySelectorAll("#hypi-styles input:not(#hypi-enable-styles)").forEach(elem => elem.disabled = !isEnabled);
 }
 
 document.getElementById("hypi-custom-shortcut").addEventListener("input", (e) => {
