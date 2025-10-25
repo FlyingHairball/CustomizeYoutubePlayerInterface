@@ -69,7 +69,7 @@
     display: block;
 }
 
-#hypi-advanced {
+#hypi-styles {
     height: 475px;
     overflow-y: auto;
 }
@@ -138,19 +138,13 @@ input:disabled + .hypi-slider {
     background-color: #ccc;
 }
 
-.hypi-tooltip-container {
-    display: flex;
-    align-items: center;
-}
-
 .hypi-tooltip {
     position: relative;
-    display: flex;
-    align-items: flex-start;
 }
 
 .hypi-tooltip-mark {
     font-size: 12px;
+    position: absolute;
 }
 
 .hypi-tooltip .hypi-tooltiptext {

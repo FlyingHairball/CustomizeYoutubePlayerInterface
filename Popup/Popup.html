@@ -4,16 +4,25 @@
         <link rel="stylesheet" href="Popup.css" />
     </head>
     <body id="hypi-popup">
-        <h1 class="hypi-main-header">Hide Youtube Interface</h2>
+        <h1 class="hypi-main-header">Customize Youtube Interface</h2>
         <div class="hypi-tabs">
-            <button class="hypi-tab hypi-active" data-tab="hypi-general">General</button>
-            <button class="hypi-tab" data-tab="hypi-advanced">Advanced</button>
+            <button class="hypi-tab hypi-active" data-tab="hypi-styles">Styles</button>
+            <button class="hypi-tab" data-tab="hypi-shortcut">Shortcut</button>
         </div>
         
-        <div class="hypi-tab-content hypi-active" id="hypi-general">
+        <div class="hypi-tab-content" id="hypi-shortcut">
 
             <div class="hypi-container">
-                <p for="hypi-custom-shortcut">Custom Shortcut:</p>
+                <div class="hypi-tooltip-container">
+                    <div class="hypi-tooltip">Toggle UI Visibility <span class="hypi-tooltip-mark">(?)</span>
+                        <span class="hypi-tooltiptext">
+                            Set a custom button to toggle the interface (default: "p").
+                            <br>
+                            <br>
+                            Add optional modifiers below to customize the shortcut, e.g., Ctrl+p.
+                        </span>
+                    </div>
+                </div>
                 <input type="text" id="hypi-custom-shortcut" class="hypi-input" placeholder="Default: p" value="p" />
             </div>
 
@@ -74,7 +83,7 @@
             </div>
         </div>
 
-        <div class="hypi-tab-content" id="hypi-advanced">
+        <div class="hypi-tab-content hypi-active" id="hypi-styles">
 
             
             <div class="hypi-container">
@@ -90,7 +99,7 @@
             <div class="hypi-container">
                 <div class="hypi-tooltip-container">
                     <div class="hypi-tooltip">Custom UI (2025) <span class="hypi-tooltip-mark">(?)</span>
-                        <span class="hypi-tooltiptext">will style the new interface so it resembles the old yt interface</span>
+                        <span class="hypi-tooltiptext">Style the new interface so it resembles the old yt interface</span>
                     </div>
                 </div>
                 <label class="hypi-switch" for="hypi-custom-ui-2025">
