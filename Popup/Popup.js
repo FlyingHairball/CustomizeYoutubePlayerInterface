@@ -61,11 +61,8 @@ async function updateAllTabs() {
 
 	for (const tab of tabs) {
 		if (!tab.active && (tab.discarded || tab.status !== "complete")) continue;
-
-		chrome.scripting.executeScript({
-			target: { tabId: tab.id },
-			func: () => window.dispatchEvent(new CustomEvent("hypi_update")),
-		});
+		
+		chrome.tabs.sendMessage(tab.id, { data: await chrome.storage.local.get(null) });
 	}
 }
 

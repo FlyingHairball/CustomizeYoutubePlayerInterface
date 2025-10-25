@@ -9,7 +9,10 @@
   "host_permissions": [
     "*://*.youtube.com/*"
   ],
-  "permissions": ["scripting", "tabs", "storage"],
+  "background": {
+    "service_worker": "Background.js"
+  },
+  "permissions": ["tabs", "storage"],
   "icons": {
     "128": "icons/icon128.png"
   },
