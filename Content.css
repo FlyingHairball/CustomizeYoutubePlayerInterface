@@ -16,7 +16,7 @@
 
 .hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom.ytp-chrome-bottom {
     bottom: 0;
-    height: 70px;
+    height: 70px !important;
 }
 
 .hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow {
