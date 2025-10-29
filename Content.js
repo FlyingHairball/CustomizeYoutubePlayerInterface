@@ -100,7 +100,7 @@ const set_data = (data) => {
                     document.body.classList.remove("hypi-custom-ui-2025");
                 }
                 break
-            case "hypi-custom-ui-2015":
+            case "hypi-unintrusive-dropshadow":
                 if (data[key]) {
                     document.body.classList.add("hypi-unintrusive-dropshadow");
                 } else {
