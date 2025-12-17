@@ -39,20 +39,25 @@ document.addEventListener("keydown", function (event) {
 } );
 
 // detect interface version
-if (document.getElementsByClassName("ytp-overlays-container").length) {
-    document.body.classList.add("hypi-interface_2025");
-} else {
-    document.body.classList.add("hypi-interface_2015");
+const detectVersion = (clear) => {
+    document.body.classList.remove("hypi-interface_2015");
+    document.body.classList.remove("hypi-interface_2025");
+    
+    if (clear) return;
+
+    if (document.getElementsByClassName("ytp-overlays-container").length) {
+        document.body.classList.add("hypi-interface_2025");
+    } else {
+        document.body.classList.add("hypi-interface_2015");
+    }
 }
 
 chrome.runtime.sendMessage({ type: "getData" }, ({ data }) => {
     // await until the UI is fully loaded before fetching initial data
-    waitForElm(".ytDislikeButtonViewModelHost").then(() => {
-        set_data(data)
-    });
+    waitForElm(".ytDislikeButtonViewModelHost").then(() => set_data(data));
 });
 
-chrome.runtime.onMessage.addListener(({ data }, _sender, _sendResponse) => {
+chrome.runtime.onMessage.addListener(({ data }) => {
     if (data) set_data(data);
 });
 
@@ -60,8 +65,10 @@ chrome.runtime.onMessage.addListener(({ data }, _sender, _sendResponse) => {
 const set_data = (data) => {
     enableStyles = data["hypi-enable-styles"]
     if (enableStyles) {
+        detectVersion();
         document.body.classList.add("hypi-enable-styles");
     } else {
+        detectVersion(true);
         document.body.classList.remove("hypi-enable-styles");
     }
 
