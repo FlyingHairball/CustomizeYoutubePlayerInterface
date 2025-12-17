@@ -14,7 +14,16 @@ let initial = true
 
 let controlsAreVisible = true;
 const toggleControlsVisible = () => {
-    const playerControlElements = document.querySelectorAll(".ytp-chrome-top, .ytp-gradient-top, .ytp-chrome-bottom, .ytp-gradient-bottom, .ytp-overlays-container, .ytp-fullscreen-grid-expand-button");
+    const playerControlElements = document.querySelectorAll(`
+        .ytp-bezel,
+        .ytp-chrome-top,
+        .ytp-gradient-top,
+        .ytp-chrome-bottom,
+        .ytp-gradient-bottom,
+        .ytp-overlays-container,
+        .ytp-fullscreen-grid-expand-button,
+        .ytp-fullscreen-grid-buttons-container
+    `);
 
     if (hideByOpacity) {
         playerControlElements.forEach(elem => elem.style.opacity = controlsAreVisible ? 0 : "");
