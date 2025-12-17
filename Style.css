@@ -104,9 +104,10 @@
     bottom: 160px;
 }
 
-.hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button {
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button.ytp-fullscreen-grid-expand-button,
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-more-videos-button.ytp-more-videos-button.ytp-more-videos-button.ytp-more-videos-button.ytp-more-videos-button.ytp-more-videos-button {
     position: relative;
-    top: -22px;
+    top: 10px;
 }
 
 .hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button.ytp-play-button {
@@ -127,8 +128,8 @@
 }
 
 .hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls.ytPlayerQuickActionButtonsHostCompactControls {
-    background: rgba(0, 0, 0, 0.2);
-    box-shadow: black 0px 0px 36px -11px;
+    background: radial-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0));
+    box-shadow: black 0px 0px 18px -15px;
 }
 
 .hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content.ytp-chapter-title-content,
