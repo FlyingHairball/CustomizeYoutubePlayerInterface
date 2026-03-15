@@ -32,6 +32,8 @@ You can still enable css styles to customize your experience manually through ed
 
 ## Install
 
+[Youtube Tutorial](https://youtu.be/XucQrUa94hw)
+
 If you are on Firefox, you can directly add it to your browser here [Customize and Hide YouTube Player Interface](https://addons.mozilla.org/en-US/firefox/addon/hide-youtube-player-interface/)
 
 For Chromium based browsers (chrome, brave, etc.) you will have to manually install it from this repo:

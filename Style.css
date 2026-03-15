@@ -63,6 +63,11 @@
 
     box-shadow: black 0px 36px 65px;
     background: rgba(0, 0, 0, 0.13);
+    transition: opacity .1s cubic-bezier(.4, 0, 1, 1);
+}
+
+.hypi-enable-styles.hypi-custom-ui-2025.hypi-interface_2025 .ytp-autohide .hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow.hypi-drop-shadow {
+    opacity: 0;
 }
 
 .hypi-interface_2025.hypi-interface_2025.hypi-interface_2025 .ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container.ytp-progress-bar-container {
